@@ -1,0 +1,103 @@
+body {
+    background: url('./images/background2.jpg') no-repeat center/cover;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    font-family: Arial Helvetica sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-title {
+    position: relative;
+    height: 600px;
+    width: 25%;
+    margin-top: -100px;
+    margin-left: 51px;
+}
+
+
+.title {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    /* height: 400px; */
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    /* text-align: center; */
+    font-size: 50px;
+}
+
+p {
+    /* text-align: center; */
+    font-size: 20px;
+}
+
+.image {
+    margin-top: 100px;
+    margin-left: 6.5px;
+    background: url('./images/flex.jpg') no-repeat center/cover;
+    height: 600px;
+    width: 384px;
+    border-radius: 50px 0 0 50px;
+    /* box-shadow: 0 10px 3px; */
+    /* filter: blur(2px); */
+}
+
+
+.form {
+    margin-top: 100px;
+    margin-right: 50px;
+    width: 40%;
+    height: 600px;
+    background: rgb(36, 32, 32);
+    border-radius: 0 50px 50px 0;
+    /* box-shadow: 5px 10px 3px; */
+}
+
+input[type=text] {
+    margin-top: 75px;
+    margin-left: 50px;
+    background: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid orange;
+    height: 20px;
+    width: 200px;
+    font-size: 20px;
+    color: orange;
+    padding: 3px;
+    outline: none;
+}
+
+button {
+    margin-left: 215px;
+    margin-top: 50px;
+    height: 30px;
+    font-size: 18px;
+    padding: 3px;
+    background: orange;
+    border: none;
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather {
+    margin-top: 70px;
+    margin-left: 50px;
+    color: orange;
+    /* text-align: left; */
+}
+
+.current {
+    color: white;
+}
